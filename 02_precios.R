@@ -4,8 +4,7 @@ library(tidyverse)
 library(scales)
 
 
-setwd("~/Dropbox/MASTER/DATOS/R/IDEALISTA/renta y alquiler/data/")  ##  Añadir el path donde esté la carpeta cons los csv y los scripts
-
+setwd(paste0(getwd(), "/data/"))  ##  Añadir el path donde esté la carpeta cons los csv y los scripts
 
 
 ## Importo los datos de Idealisto y formateo los datos
