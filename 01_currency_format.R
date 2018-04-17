@@ -37,3 +37,9 @@ currency_format <- function(symbol_currency = "$", symbol_position = "before", s
     return(labels)
   }
 }
+
+
+# instalo los paquetes necesarios en el caso de que no lo estén y los cargo
+list.of.packages <- c("readr", "ggthemes", "tidyverse", "scales")
+new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
+if(length(new.packages)>0) {install.packages(new.packages)}
