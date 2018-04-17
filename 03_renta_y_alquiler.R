@@ -4,8 +4,7 @@ library(tidyverse)
 library(scales)
 
 
-setwd("~/Dropbox/MASTER/DATOS/R/IDEALISTA/renta y alquiler/data/")   ##  Añadir el path donde esté la carpeta
-
+setwd(paste0(getwd(), "/data/"))  ##  Añadir el path donde esté la carpeta cons los csv y los scripts
 
 
 ## Importo las medias de renta de hogar (2014) y formateo los datos
