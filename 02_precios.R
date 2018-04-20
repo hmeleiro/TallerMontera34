@@ -4,7 +4,7 @@ library(tidyverse)
 library(scales)
 
 
-setwd(paste0(getwd(), "/data/"))  ##  Añadir el path donde esté la carpeta cons los csv y los scripts
+setwd()  ##  Añadir el path donde esté la carpeta cons los csv y los scripts
 
 
 ## Importo los datos de Idealisto y formateo los datos
