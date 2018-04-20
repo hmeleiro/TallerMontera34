@@ -50,7 +50,7 @@ MAD$precio_agrup[MAD$Precio >= 2000] <- ">2000€"
 MAD$precio_agrup <- factor(MAD$precio_agrup, levels = c("<400€", "400-599€", "600-799€", "800-999€", "1.000-1.299€", "1.300-1.599€", "1.600-1.999€", ">2000€"), ordered = TRUE)
 
 #MAD <- df
-submuestra <- subset(MAD, MenosDe30 == "30 días o menos")
+submuestra <- subset(MAD, vigencia <= 30)
 submuestra$ofer_deman <- "Demanda"
 MAD$ofer_deman <- "Oferta"
 MAD <- rbind(submuestra, MAD)
