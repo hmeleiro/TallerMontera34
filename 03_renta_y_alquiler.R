@@ -4,7 +4,7 @@ library(tidyverse)
 library(scales)
 
 
-setwd(paste0(getwd(), "/data/"))  ##  Añadir el path donde esté la carpeta cons los csv y los scripts
+setwd()  ##  Añadir el path donde esté la carpeta cons los csv y los scripts
 
 
 ## Importo las medias de renta de hogar (2014) y formateo los datos
