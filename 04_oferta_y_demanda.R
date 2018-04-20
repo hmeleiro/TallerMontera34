@@ -1,7 +1,7 @@
 library(tidyverse)
 library(scales)
 
-setwd(paste0(getwd(), "/data/"))  ##  Añadir el path donde esté la carpeta cons los csv y los scripts
+setwd()  ##  Añadir el path donde esté la carpeta cons los csv y los scripts
 
 MAD <- read.csv("./vigencia_idealisto_df_MAD.csv")
 point <- format_format(suffix = "€", preffix = "€", big.mark = ".", decimal.mark = ",", scientific = FALSE)
